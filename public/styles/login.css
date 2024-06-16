@@ -1,0 +1,85 @@
+body {
+  
+    background-color: #07092b;
+    font-family: 'Poppins', 'Poppins';
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+}
+
+img {
+    display: block;
+    margin-bottom: 20px;  
+    margin-top: -10px;
+    width: 70px;      
+    height: auto;      
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);  
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);  
+}
+  
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 span {
+    color: #abadf9;
+}
+
+
+form {
+    
+    background: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccc;
+    border-radius: 3px;
+    font-family: 'Poppins', 'Poppins';
+}
+
+form button {
+    font-family: 'Poppins', 'Poppins';
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #2b2f71;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0a0c2e;
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+}
+
+p a {
+    color: #abadf9;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #c7c8f7;
+}
